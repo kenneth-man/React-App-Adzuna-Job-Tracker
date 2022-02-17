@@ -9,13 +9,13 @@ NPM Packages: Tailwind, firebase, chart.js, react-chartjs-2, react-router-dom, r
 
 API: https://developer.adzuna.com/overview
 
-![Alt text](./src/Res/Images/sampleScreenshot1.png?raw=true "Login")
-![Alt text](./src/Res/Images/sampleScreenshot2.png?raw=true "Register")
-![Alt text](./src/Res/Images/sampleScreenshot3.png?raw=true "Home")
-![Alt text](./src/Res/Images/sampleScreenshot4.png?raw=true "Jobs")
-![Alt text](./src/Res/Images/sampleScreenshot5.png?raw=true "JobPage")
-![Alt text](./src/Res/Images/sampleScreenshot6.png?raw=true "Salaries 1")
-![Alt text](./src/Res/Images/sampleScreenshot7.png?raw=true "Salaries 2")
-![Alt text](./src/Res/Images/sampleScreenshot8.png?raw=true "Vacancies 1")
-![Alt text](./src/Res/Images/sampleScreenshot9.png?raw=true "Vacancies 2")
-![Alt text](./src/Res/Images/sampleScreenshot10.png?raw=true "Profile")
+![Alt text](./src/res/images/sampleScreenshot1.png?raw=true "Login")
+![Alt text](./src/res/images/sampleScreenshot2.png?raw=true "Register")
+![Alt text](./src/res/images/sampleScreenshot3.png?raw=true "Home")
+![Alt text](./src/res/images/sampleScreenshot4.png?raw=true "Jobs")
+![Alt text](./src/res/images/sampleScreenshot5.png?raw=true "JobPage")
+![Alt text](./src/res/images/sampleScreenshot6.png?raw=true "Salaries 1")
+![Alt text](./src/res/images/sampleScreenshot7.png?raw=true "Salaries 2")
+![Alt text](./src/res/images/sampleScreenshot8.png?raw=true "Vacancies 1")
+![Alt text](./src/res/images/sampleScreenshot9.png?raw=true "Vacancies 2")
+![Alt text](./src/res/images/sampleScreenshot10.png?raw=true "Profile")
