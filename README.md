@@ -1,70 +1,21 @@
-# Getting Started with Create React App
+# React App - Adzuna Job Tracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Search for and track job statistics via the Adzuna Job Api. Login and Register authentication via firebase to save jobs that you are interested in. Job searches can be specialized to 
+filter by name, location, minimum salary, maximium salary, job type and sort by.
 
-## Available Scripts
+Depending on the job selected, I've used chart.js and react-chartjs-2 to display in chart form that job's 'Salaries' data (historical data in last 6 months and salary distribution) and 'Vacancies' data (vacancies per area and current vacancies by top 5 companies).
 
-In the project directory, you can run:
+NPM Packages: Tailwind, firebase, chart.js, react-chartjs-2, react-router-dom, react-lazy-load-image-component
 
-### `npm start`
+API: https://developer.adzuna.com/overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Alt text](./src/Res/Images/sampleScreenshot1.png?raw=true "Login")
+![Alt text](./src/Res/Images/sampleScreenshot2.png?raw=true "Register")
+![Alt text](./src/Res/Images/sampleScreenshot3.png?raw=true "Home")
+![Alt text](./src/Res/Images/sampleScreenshot4.png?raw=true "Jobs")
+![Alt text](./src/Res/Images/sampleScreenshot5.png?raw=true "JobPage")
+![Alt text](./src/Res/Images/sampleScreenshot6.png?raw=true "Salaries 1")
+![Alt text](./src/Res/Images/sampleScreenshot7.png?raw=true "Salaries 2")
+![Alt text](./src/Res/Images/sampleScreenshot8.png?raw=true "Vacancies 1")
+![Alt text](./src/Res/Images/sampleScreenshot9.png?raw=true "Vacancies 2")
+![Alt text](./src/Res/Images/sampleScreenshot10.png?raw=true "Profile")

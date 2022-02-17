@@ -1,0 +1,1 @@
+export const navlinkBaseClasses = `flex items-center fill-slate-300 text-slate-300 underline decoration-transparent decoration-2 underline-offset-4 hover:fill-emerald-300 hover:text-adzuna hover:decoration-emerald-300`;

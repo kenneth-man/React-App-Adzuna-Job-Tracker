@@ -1,13 +1,78 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* avoid repeating same styling for text elements used many times */
+@layer base {
+    h1 {
+        @apply text-3xl font-thin sm:text-4xl; 
+    }
+    
+    h2 {
+        @apply text-lg font-normal sm:text-xl;
+    }
+
+    h3 {
+        @apply text-sm font-light sm:text-base;
+    }
+
+    h4 {
+        
+    }
+
+    h5 {
+        
+    }
+
+    h6 {
+        
+    }
+
+    h1,h2,h4,h5,h6 {
+        @apply text-center;
+    }
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.1s !important;
+}
+
+html,
+body,
+#root,
+.App {
+    height: 100%;
+}
+
+.jobPage * {
+    color: white;
+}
+
+.jobPage__arrow {
+    top: 62.5%;
+}
+
+.home-showcase-link:hover {
+    font-weight: 700;
+    font-size: 20px;
+    transform: translateX(15px);
+}
+
+.home-showcase-link:hover svg {
+    transform: translateX(25px);
+    opacity: 0%;
+}
+
+.home-showcase-link:active {
+    font-size: 16px;
+}
+
+.unset {
+    position: unset;
 }

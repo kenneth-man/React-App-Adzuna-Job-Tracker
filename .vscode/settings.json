@@ -1,0 +1,5 @@
+{
+"editor.detectIndentation": false,
+"reactSnippets.settings.tabWidth": 4,
+"reactSnippets.settings.semiColons": false
+}
